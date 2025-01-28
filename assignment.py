@@ -7,7 +7,7 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    return f"My name is {name}. I am {age} years old."
+    return f"My name is {name} and I am {age} years old"
 
 def conditional_check(number):
     """
@@ -33,7 +33,7 @@ def loop_sum(n):
         int: Sum of numbers
     """
     sum=0
-    for i in range(1, n):
+    for i in range(1, n+1):
         sum+=i
     return sum
 
